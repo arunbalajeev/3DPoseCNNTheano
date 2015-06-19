@@ -24,8 +24,8 @@ import getopt#parsing command line
 
 
 from logistic_sgd import LogisticRegression, load_data
-from mlp_Regression_batch128_nosqrt import HiddenLayer
-from mlp_Regression_batch128_nosqrt import ReturnValue
+from mlp import HiddenLayer
+from mlp import ReturnValue
 
 import cPickle
 #from collections import namedtuple
